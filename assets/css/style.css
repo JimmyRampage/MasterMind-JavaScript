@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wdth,wght@100..125,100..700&display=swap');
+
+
+* body {
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(to bottom right, blue, pink);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "M PLUS Code Latin";
+    font-weight: 100;
+    user-select: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+    background-color: #ffc197;
+    border-radius: 10px;
+    padding: 10px;
+}
+h1 {
+    margin: 0;
+    letter-spacing: 2px;
+    text-shadow: white 0 0 2px;
+    border-bottom: 2px solid black;
+}
+h2 {
+    margin: 5px 0;
+    letter-spacing: 2px;
+    text-shadow: white 0 0 2px;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+}
+.solucion {
+    font-size: 30px;
+    text-shadow: white 0 0 5px;
+}
+
+.circulo {
+    background-color: #d69265;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    outline: black dashed 0.1px;
+}
+
+.semaforo-circulo{
+    background-color: #e46714;
+    height: 7.5px;
+    width: 7.5px;
+    border-radius: 100%;
+    margin: 1px;
+}
+.semaforo {
+    height: 50px;
+    width: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#controles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.jugable:hover, .boton:hover {
+    box-shadow: black 0 0 10px;
+    text-shadow: white 0 0 5px;
+    cursor: pointer;
+}
+.jugable:active, .boton:active {
+    box-shadow: white 0 0 10px;
+    text-shadow: black 0 0 5px;
+    cursor: pointer;
+}
+.boton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    text-shadow: black 0 0 2px;
+    margin: 0 5px;
+}

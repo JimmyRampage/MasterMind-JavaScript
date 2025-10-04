@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MasterMind</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+</head>
+<body>
+    <main>
+        <h1>MasterMind</h1>
+        <h2 id="notificador">Try it!</h2>
+        <table>
+            <thead>
+                <tr id="soluciones"></tr>
+            </thead>
+            <tbody id="jugadas">
+            </tbody>
+        </table>
+        <table>
+            <thead>
+                <tr id="opciones"></tr>
+            </thead>
+        </table>
+        <div id="controles">
+            <div id="reset" class="circulo boton" title="Resetear el juego">♻️</div>
+            <div id="delete" class="circulo boton" title="Eliminar la ultima jugada">❌</div>
+        </div>
+    </main>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

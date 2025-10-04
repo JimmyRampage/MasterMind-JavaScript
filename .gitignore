@@ -1,0 +1,52 @@
+# Archivos compilados de Java
+*.class
+
+# Directorios de salida de compilación comunes
+bin/
+out/
+
+# Archivos de log
+*.log
+
+# Archivos de empaquetado (JAR, WAR, etc.)
+# Es mejor generarlos en el momento y no versionarlos
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+# Archivos específicos de IDEs
+
+## IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+## Eclipse
+.classpath
+.project
+.settings/
+
+## NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+## VS Code
+.vscode/
+
+# Archivos específicos del sistema operativo
+
+## macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+## Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
